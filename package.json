@@ -1,0 +1,29 @@
+{
+  "name": "frank-website",
+  "version": "1.0.0",
+  "description": "Portofolio website using Bootstrap and Sass",
+  "main": "index.js",
+  "scripts": {
+    "compilesass": "sass --watch scss:dist/css",
+    "purge":"purgecss --css css/style.css --content dist/index.html -o dist/css/style.css"
+  },
+  "keywords": [
+    "frankramirezsoto",
+    "frankramirez",
+    "bootstrap",
+    "sass",
+    "css",
+    "html"
+  ],
+  "author": "Franklin Ramirez",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "aos": "^3.0.0-beta.6",
+    "autoprefixer": "^10.4.4",
+    "bootstrap": "^5.1.3"
+  }
+}

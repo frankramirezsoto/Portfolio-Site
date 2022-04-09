@@ -1,0 +1,15 @@
+@use 'custom';
+
+//Imports components
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//Import sections 
+@use 'sections/navbar';
+@use 'sections/intro-sections';
+@use 'sections/tools';
+@use 'sections/testimonials';
+@use 'sections/get-started';
+@use 'sections/footer';
+
