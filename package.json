@@ -4,7 +4,7 @@
   "description": "Portofolio website using Bootstrap and Sass",
   "main": "index.js",
   "scripts": {
-    "compilesass": "sass --watch scss:dist/css",
+    "compilesass": "sass --watch scss:css",
     "purge":"purgecss --css css/style.css --content dist/index.html -o dist/css/style.css"
   },
   "keywords": [
